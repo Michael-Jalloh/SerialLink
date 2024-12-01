@@ -1,6 +1,8 @@
 # SerialLink
 SerialLink is a Python library designed to simplify serial communication with microcontrollers. It enables efficient and seamless data exchange without blocking code execution. By using configurable start and end markers, SerialLink ensures reliable message framing, making it an ideal tool for developers working with embedded systems or serial communication.
 
+### Notes: Need the [arduino](https://github.com/Michael-Jalloh/Arduino-SerialLink) companion library
+
 Key Features:
 
 - Non-blocking Reads: No need for methods like readUntil("\n") that can hinder code flow.

@@ -9,7 +9,7 @@ with open(path.join(this_directory, 'README.md')) as f:
 setup(
     name="SerialLink",
     packages=["seriallink"],
-    version="0.0.1",
+    version="1.0.0",
     license="MIT",
     description="SerialLink is a Python library designed to simplify serial communication with microcontrollers",
     long_description=long_description,
@@ -20,7 +20,7 @@ setup(
     install_requires=["pyserial"],
     package_dir={"seriallink":"src/seriallink"},
     classifiers= [
-        "Development Status :: 3 - Alpha",      
+        "Development Status :: 3 - stable",      
         "Intended Audience :: Developers",      
         "Topic :: Software Development :: Build Tools",
         "License :: OSI Approved :: MIT License",
