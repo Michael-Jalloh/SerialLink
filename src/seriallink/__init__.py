@@ -51,7 +51,7 @@ def get_ports(description=""):
     ports = []
     for port, desc, hwid in sorted(coms):
         if description != "":
-            if description.lower() in desc.lower():
+            if description.lower() in desc.lower() or description.lower() in hwid.lower() :
                 ports.append({"port": port, "desc":desc, "hwid": hwid})
         else:
             ports.append({"port": port, "desc":desc, "hwid": hwid})
